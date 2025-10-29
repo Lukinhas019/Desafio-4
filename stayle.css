@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    box-sizing: border-box;
+    font-size: 400;
+    color: #5d5d7d;
+
+}
+
+.conteiner-left {
+    display: inline-block;
+    width: 60%;
+    margin-top: 20%;
+    padding-left: 150px;
+    margin-right: 50px;
+    padding-right: 300px;
+}
+
+.conteiner-right {
+
+    display: inline-block;
+    background-color: rgba(93,93,125, 0.15);
+    position: absolute;
+    width: 40%;
+    height: 100vw;
+}
+
+.tudo {
+    width: 100vh;
+    width: 100vw;
+}
+ img {
+    height: 600px;
+    right: 150px;
+    position: relative;
+    top: 159px;
+}
+h1 {
+    font-size: 70px;
+    line-height: 80px;
+    width: 368px;
+}
+
+p{ 
+    text-align: left;
+    font-size: 28px;
+    line-height: 48px;
+    opacity: 0.6;
+    width: 540;
+    
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    background-color: #9499EA;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    box-sizing: border-box;
+    cursor: pointer;
+    box-shadow: 0px 10px 24px rgba(148,153,234, 0.0979959);
+}
+
+button:hover{
+
+opacity: .8;
+
+ }
+
+ button:active {
+    opacity: .7;
+ }
+
+ a {
+    margin-right: 41px;
+    cursor: pointer;
+    margin-left: 32px;
+    font-size: 28px;
+ }
+ 
+a:nth-child(2) {
+    opacity: 0.4;
+}
+
+a:hover{
+    opacity: 0.4;
+}
+
+a:active {
+    opacity: .8
+}
+
+@media screen and (width: 1000) {
+
+.conteiner-right {
+    
+    width: 100%;
+    height: 50%;
+    padding: 0px;
+    margin: 0px;
+
+}
+.conteiner-right {
+
+    display: block;
+}
+
+
+
+
+
+
+
+} 
